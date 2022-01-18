@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj": {}
+    "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj": {
+    "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj",
+        "projectUniqueName": "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj",
+        "projectPath": "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\t-amhamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\obj\\",
+        "outputPath": "D:\\Projects\\Demos\\Mediator\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

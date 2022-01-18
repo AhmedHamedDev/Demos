@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Mediator\\Mediator-Api.csproj": {}
+    "D:\\Projects\\Demos\\Mediator\\Mediator\\Mediator-Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj": {
+    "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj",
+        "projectUniqueName": "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj",
+        "projectPath": "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\t-amhamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\obj\\",
+        "outputPath": "D:\\Projects\\Demos\\Mediator\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Mediator\\Mediator-Api.csproj": {
+    "D:\\Projects\\Demos\\Mediator\\Mediator\\Mediator-Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Mediator\\Mediator-Api.csproj",
+        "projectUniqueName": "D:\\Projects\\Demos\\Mediator\\Mediator\\Mediator-Api.csproj",
         "projectName": "Mediator-Api",
-        "projectPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Mediator\\Mediator-Api.csproj",
+        "projectPath": "D:\\Projects\\Demos\\Mediator\\Mediator\\Mediator-Api.csproj",
         "packagesPath": "C:\\Users\\t-amhamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Mediator\\obj\\",
+        "outputPath": "D:\\Projects\\Demos\\Mediator\\Mediator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj": {
-                "projectPath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj"
+              "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj": {
+                "projectPath": "D:\\Projects\\Demos\\Mediator\\Library\\Library.csproj"
               }
             }
           }

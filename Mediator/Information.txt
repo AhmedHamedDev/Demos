@@ -1,0 +1,32 @@
+# MediatR has two kinds of messages it dispatches:
+
+- Request/response messages, dispatched to a single handler
+- Notification messages, dispatched to multiple handlers
+
+- Send may return a response, but do not have to do it.
+- Publish never return the result.
+
+- You are sending requests (sometimes called commands) by _mediator.Send({command}) to exactly one concrete handler. 
+It may be e.g. command that saves a new product to the database. It is often a request from the user (frontend/API) 
+or sometimes it may be internal command in your system given by other service in a synchronous way. It is always 
+expected that the command will be executed immediately and you will receive some proper result or error to immediately
+inform the client about some failures.
+
+- You are publishing notifications (often called events) by _mediator.Publish({event}) to zero, one or many handlers. 
+You used notifications when you want to publish some information and you do not know who needs that. E.g. NewProductEvent 
+which is published after successfully adding product to your Warehouse Module. Few other contexts want to subscribe the 
+information and e.g. send email to a client that a new product is available or create some default configuration for the 
+product in your Store Module (which payment and delivery are available for the product). You may use notifications in a 
+synchronous way. All data will be saved in one transaction (product and store configuration) or you may use some async
+pattern with service bus or/and sagas. In the second case (asynchronous) you must manually handle cases when something 
+wrong happens in other services or contexts which subscribe to your notification.
+
+# Example scenario: Default configuration was not created.
+
+- If you have one transaction (synchronous way) for a few contexts, you will receive an error, 
+log the error and return it to the user/client.
+
+- In an asynchronous way, you send events after saving a new product to the database. 
+You do not want to have the product in a half-error state in your system. So firstly I recommend creating it in 
+the Draft state and wait for an event that informs you about the successfully created configuration and then changes 
+the state to e.g New/Correct etc.

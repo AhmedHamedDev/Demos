@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1f1e2735-ea4f-4556-9519-bca01ee474d9": {
+      "ProjectGuid": "1f1e2735-ea4f-4556-9519-bca01ee474d9",
+      "DisplayName": "Mediator-Api",
+      "ColorIndex": 0
+    },
+    "11981d3c-10e2-4c7b-9116-d243755e0e4e": {
+      "ProjectGuid": "11981d3c-10e2-4c7b-9116-d243755e0e4e",
+      "DisplayName": "Library",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

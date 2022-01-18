@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qKHzyh2TziA4yupiNBTC8XFp9g5mPqlr7DBYADHgA//ZgIuNkd6YrwV5/0Q9p222N9gaH2dB8kg/3p8qAXkEfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\t-amhamed\\source\\repos\\Mediator\\Library\\Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\t-amhamed\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\t-amhamed\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

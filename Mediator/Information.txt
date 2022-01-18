@@ -30,3 +30,25 @@ log the error and return it to the user/client.
 You do not want to have the product in a half-error state in your system. So firstly I recommend creating it in 
 the Draft state and wait for an event that informs you about the successfully created configuration and then changes 
 the state to e.g New/Correct etc.
+
+
+# Puplish work Syncronous (this is a disadvantage) 
+
+# Request pipeline
+public class DemoBehavior : IPipelineBehavior<PlaceOrder, Unit>
+{
+    private readonly ILogger<DemoBehavior> _logger;
+
+    public DemoBehavior(ILogger<DemoBehavior> logger)
+    {
+        _logger = logger;
+    }
+
+    public async Task<Unit> Handle(PlaceOrder request, CancellationToken cancellationToken, RequestHandlerDelegate<Unit> next)
+    {
+        _logger.LogInformation($"Handling {nameof(PlaceOrder)}");
+
+        var response = await next();
+        return response;
+    }
+}

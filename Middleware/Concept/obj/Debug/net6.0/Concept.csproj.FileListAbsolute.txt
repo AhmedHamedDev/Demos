@@ -1,0 +1,15 @@
+D:\Projects\Demos\Middleware\Concept\bin\Debug\net6.0\Concept.exe
+D:\Projects\Demos\Middleware\Concept\bin\Debug\net6.0\Concept.deps.json
+D:\Projects\Demos\Middleware\Concept\bin\Debug\net6.0\Concept.runtimeconfig.json
+D:\Projects\Demos\Middleware\Concept\bin\Debug\net6.0\Concept.dll
+D:\Projects\Demos\Middleware\Concept\bin\Debug\net6.0\ref\Concept.dll
+D:\Projects\Demos\Middleware\Concept\bin\Debug\net6.0\Concept.pdb
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.csproj.AssemblyReference.cache
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.AssemblyInfoInputs.cache
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.AssemblyInfo.cs
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.csproj.CoreCompileInputs.cache
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.dll
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\ref\Concept.dll
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.pdb
+D:\Projects\Demos\Middleware\Concept\obj\Debug\net6.0\Concept.genruntimeconfig.cache

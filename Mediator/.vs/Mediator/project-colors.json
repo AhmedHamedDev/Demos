@@ -10,7 +10,12 @@
       "ProjectGuid": "11981d3c-10e2-4c7b-9116-d243755e0e4e",
       "DisplayName": "Library",
       "ColorIndex": 1
+    },
+    "39de4122-9862-446e-af2f-f64514e6837d": {
+      "ProjectGuid": "39de4122-9862-446e-af2f-f64514e6837d",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

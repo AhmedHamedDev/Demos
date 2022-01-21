@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "linq_ladders/1.0.0": {
+        "runtime": {
+          "linq_ladders.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "linq_ladders/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

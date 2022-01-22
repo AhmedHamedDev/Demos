@@ -1,0 +1,15 @@
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\bin\Debug\net6.0\ResolverContainer.exe
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\bin\Debug\net6.0\ResolverContainer.deps.json
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\bin\Debug\net6.0\ResolverContainer.runtimeconfig.json
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\bin\Debug\net6.0\ResolverContainer.dll
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\bin\Debug\net6.0\ref\ResolverContainer.dll
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\bin\Debug\net6.0\ResolverContainer.pdb
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.csproj.AssemblyReference.cache
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.AssemblyInfoInputs.cache
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.AssemblyInfo.cs
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.csproj.CoreCompileInputs.cache
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.dll
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ref\ResolverContainer.dll
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.pdb
+D:\Projects\Demos\Dependancy_Injection\ResolverContainer\obj\Debug\net6.0\ResolverContainer.genruntimeconfig.cache

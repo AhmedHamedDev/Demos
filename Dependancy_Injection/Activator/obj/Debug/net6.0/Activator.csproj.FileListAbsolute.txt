@@ -1,0 +1,15 @@
+D:\Projects\Demos\Dependancy_Injection\Activator\bin\Debug\net6.0\Activator.exe
+D:\Projects\Demos\Dependancy_Injection\Activator\bin\Debug\net6.0\Activator.deps.json
+D:\Projects\Demos\Dependancy_Injection\Activator\bin\Debug\net6.0\Activator.runtimeconfig.json
+D:\Projects\Demos\Dependancy_Injection\Activator\bin\Debug\net6.0\Activator.dll
+D:\Projects\Demos\Dependancy_Injection\Activator\bin\Debug\net6.0\ref\Activator.dll
+D:\Projects\Demos\Dependancy_Injection\Activator\bin\Debug\net6.0\Activator.pdb
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.csproj.AssemblyReference.cache
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.AssemblyInfoInputs.cache
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.AssemblyInfo.cs
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.csproj.CoreCompileInputs.cache
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.dll
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\ref\Activator.dll
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.pdb
+D:\Projects\Demos\Dependancy_Injection\Activator\obj\Debug\net6.0\Activator.genruntimeconfig.cache

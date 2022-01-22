@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "09627a04-b9f9-4efa-9775-ea6bfb23ce20": {
+      "ProjectGuid": "09627a04-b9f9-4efa-9775-ea6bfb23ce20",
+      "DisplayName": "Concept",
+      "ColorIndex": 0
+    },
+    "05e8a0f2-32be-4be2-9639-0f8bdb769904": {
+      "ProjectGuid": "05e8a0f2-32be-4be2-9639-0f8bdb769904",
+      "DisplayName": "linq_ladders",
+      "ColorIndex": 1
+    },
+    "e4808505-d1d2-4afd-81d4-aa65673b0288": {
+      "ProjectGuid": "e4808505-d1d2-4afd-81d4-aa65673b0288",
+      "DisplayName": "CustomMiddleware",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "372f83e5-68c9-46c6-91a6-14185ac737d8": {
+      "ProjectGuid": "372f83e5-68c9-46c6-91a6-14185ac737d8",
+      "DisplayName": "CoreMiddleware",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

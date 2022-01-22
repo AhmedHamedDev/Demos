@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e15906d9-80d7-46ac-865f-c6154ae7345b": {
+      "ProjectGuid": "e15906d9-80d7-46ac-865f-c6154ae7345b",
+      "DisplayName": "Activator",
+      "ColorIndex": 0
+    },
+    "0d0f7b9a-d22f-4fa2-a9c0-880d567de790": {
+      "ProjectGuid": "0d0f7b9a-d22f-4fa2-a9c0-880d567de790",
+      "DisplayName": "ResolverContainer",
+      "ColorIndex": 1
+    },
+    "1ee1abd5-c591-4d91-833b-a90516b0b74f": {
+      "ProjectGuid": "1ee1abd5-c591-4d91-833b-a90516b0b74f",
+      "DisplayName": "LifeTime",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -1,0 +1,15 @@
+D:\Projects\Demos\Channels\Channel\bin\Debug\net6.0\Channel.exe
+D:\Projects\Demos\Channels\Channel\bin\Debug\net6.0\Channel.deps.json
+D:\Projects\Demos\Channels\Channel\bin\Debug\net6.0\Channel.runtimeconfig.json
+D:\Projects\Demos\Channels\Channel\bin\Debug\net6.0\Channel.dll
+D:\Projects\Demos\Channels\Channel\bin\Debug\net6.0\ref\Channel.dll
+D:\Projects\Demos\Channels\Channel\bin\Debug\net6.0\Channel.pdb
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.csproj.AssemblyReference.cache
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.AssemblyInfoInputs.cache
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.AssemblyInfo.cs
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.csproj.CoreCompileInputs.cache
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.dll
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\ref\Channel.dll
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.pdb
+D:\Projects\Demos\Channels\Channel\obj\Debug\net6.0\Channel.genruntimeconfig.cache

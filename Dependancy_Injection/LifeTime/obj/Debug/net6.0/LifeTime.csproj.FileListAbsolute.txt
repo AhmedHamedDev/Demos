@@ -1,0 +1,14 @@
+D:\Projects\Demos\Dependancy_Injection\LifeTime\bin\Debug\net6.0\LifeTime.exe
+D:\Projects\Demos\Dependancy_Injection\LifeTime\bin\Debug\net6.0\LifeTime.deps.json
+D:\Projects\Demos\Dependancy_Injection\LifeTime\bin\Debug\net6.0\LifeTime.runtimeconfig.json
+D:\Projects\Demos\Dependancy_Injection\LifeTime\bin\Debug\net6.0\LifeTime.dll
+D:\Projects\Demos\Dependancy_Injection\LifeTime\bin\Debug\net6.0\ref\LifeTime.dll
+D:\Projects\Demos\Dependancy_Injection\LifeTime\bin\Debug\net6.0\LifeTime.pdb
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.AssemblyInfoInputs.cache
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.AssemblyInfo.cs
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.csproj.CoreCompileInputs.cache
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.dll
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\ref\LifeTime.dll
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.pdb
+D:\Projects\Demos\Dependancy_Injection\LifeTime\obj\Debug\net6.0\LifeTime.genruntimeconfig.cache

@@ -21,6 +21,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseExceptionManager();
 
+
 app.UseAuthorization();
 
 app.MapControllers();

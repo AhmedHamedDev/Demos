@@ -1,7 +1,7 @@
 ﻿namespace ExceptionHandler.Exceptions.Contract
 {
-    public interface IExceptionManager<T>
+    public interface IExceptionManager<T> : IExceptionHandleBase 
     {
-        public Task Handle(Exception exp);
+        
     }
 }

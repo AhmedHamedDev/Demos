@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ExceptionHandler.Exceptions.Types;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExceptionHandler.Controllers
@@ -11,7 +12,7 @@ namespace ExceptionHandler.Controllers
         [Route("api/Home/Test")]
         public Task<bool> Test()
         {
-            throw new Exception("this is test error");
+            throw new NewException();
             return Task.FromResult(true);
         }
     }

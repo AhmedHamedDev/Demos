@@ -1,0 +1,11 @@
+https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md
+
+=> Things should do/avoid
+1 - Once async always async
+2 - Async void is BAD
+3 - Prefer Task.FromResult over Task.Run
+4 - Avoid .Result and .Wait
+5 - Prefer await over ContinueWith
+6 - Always pass the CancellationToken
+7 - Prefer async Task over Task
+8 - Don't sync over async in constructors

@@ -1,0 +1,53 @@
+
+ // a Record is just a fancy class
+ // Immutable - The values cannot be changes
+
+ * Benefits of Records:
+ *  - Simple to set up
+ *  - Thread-safe
+ *  - Easy/safe to share
+ *  
+ * When to Use Records:
+ *  - Capturing external data that doesn't change - WeatherService, SWAPI.dev
+ *  - API calls
+ *  - Processing data
+ *  - Read-only data
+ *  
+ * When not to use Records:
+ *  - When you need to change the data (Entity Framework)
+ 
+
+// True if values are the same
+Equals(r1a, r1b)
+r1a == r1b
+r1a.GetHashCode()  == r1b.GetHashCode() 
+
+
+// False even if values are the same
+ReferenceEquals(c1a, c1b)
+
+
+// Will clone with a change of this property
+Record1 r1d = r1a with
+{
+    FirstName = "Jon"
+};
+
+// Allow Deconstruct
+var (fn, ln) = r1a;
+Console.WriteLine($"The value of fn is { fn } and the value of ln is { ln }");
+
+// Allow Inheritance
+public record User1(int Id, string FirstName, string LastName) : Record1(FirstName, LastName);
+
+
+//***************************
+// DO NOT DO ANY OF THE BELOW
+//***************************
+public record Record3 // No constructor so no deconstructor
+{
+    public string FirstName { get; set; }  // The set makes this record mutable (BAD!)
+    public string LastName { get; set; }  // The set makes this record mutable (BAD!)
+}
+
+// Don't just make clones all over to update state

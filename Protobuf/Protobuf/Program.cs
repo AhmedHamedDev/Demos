@@ -27,19 +27,31 @@ Product product3 = new()
 
 var productsBeforeSerialize = new List<Product>() { product1, product2, product3 };
 
-using (var file = File.Create("D:\\person.bin"))
-{
-    Serializer.Serialize(file, productsBeforeSerialize);
-}
+var stream = new MemoryStream();
+Serializer.Serialize(stream, productsBeforeSerialize);
 
-List<Product> productsAfterDeSerialize;
-using (var file = File.OpenRead("D:\\person.bin"))
-{
-    productsAfterDeSerialize = Serializer.Deserialize<List<Product>>(file);
-}
+var readOnlyMemory = new ReadOnlyMemory<byte>(stream.ToArray());
 
+var productsAfterDeSerialize = Serializer.Deserialize<List<Product>>(readOnlyMemory);
 foreach (var product in productsAfterDeSerialize)
     Console.WriteLine(product);
+
+
+//var productsBeforeSerialize = new List<Product>() { product1, product2, product3 };
+
+//using (var file = File.Create("D:\\person.bin"))
+//{
+//    Serializer.Serialize(file, productsBeforeSerialize);
+//}
+
+//List<Product> productsAfterDeSerialize;
+//using (var file = File.OpenRead("D:\\person.bin"))
+//{
+//    productsAfterDeSerialize = Serializer.Deserialize<List<Product>>(file);
+//}
+
+//foreach (var product in productsAfterDeSerialize)
+//    Console.WriteLine(product);
 
 Console.ReadKey();
 

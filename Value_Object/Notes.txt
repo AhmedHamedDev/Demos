@@ -1,0 +1,20 @@
+
+
+1- Entities have their own intrinsic identity , value objects don’t.
+
+2- The notion of identity equality refers to entities; the notion of structural equality refers to value objects; the notion of reference equality refers to both.
+	- Identifier equality: implies a class has an id field. Two instances of such a class would be equal if they have the same identifiers (id == id).
+	- structural equality: we consider two objects equal if all of their members match (fields values == fields values)
+	- Reference equality: means that two objects are deemed to be equal if they reference the same address in the memory (GetHashCode() == GetHashCode())
+
+3- Entities have a history; value objects have a zero lifespan.
+
+4- A value object should always belong to one or several entities, it can’t live by its own.
+
+5- Value objects should be immutable; entities are almost always mutable.
+
+6- To recognize a value object in your domain model, mentally replace it with an integer.
+
+7- Value objects shouldn’t have their own tables in the database.
+
+8- Always prefer value objects over entities in your domain model.

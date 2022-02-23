@@ -1,4 +1,4 @@
-
+// https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/
 
 1- Entities have their own intrinsic identity , value objects don’t.
 

@@ -19,6 +19,11 @@ namespace ITPack.Domain.Entities
 
         private readonly LinkedList<PackingItem> _items = new();
 
+        private PackingList(PackingListId id, PackingListName name, Localization localization, LinkedList<PackingItem> items)
+            :this(id, name, localization)
+        {
+            _items = items;
+        }
         internal PackingList(PackingListId id, PackingListName name, Localization localization)
         {
             Id = id;

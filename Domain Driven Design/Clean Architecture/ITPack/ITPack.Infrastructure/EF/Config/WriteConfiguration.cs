@@ -32,7 +32,7 @@ namespace ITPack.Infrastructure.EF.Config
                 .HasConversion(packingListNameConverter)
                 .HasColumnName("Name");
 
-            builder.HasMany(typeof(PackingItem), "_item");
+            builder.HasMany(typeof(PackingItem), "_items");
 
             builder.ToTable("PackingLists");
         }

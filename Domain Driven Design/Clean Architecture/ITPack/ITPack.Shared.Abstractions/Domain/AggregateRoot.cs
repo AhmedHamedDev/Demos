@@ -17,7 +17,7 @@ namespace ITPack.Shared.Abstractions.Domain
 
         protected void AddEvent(IDomainEvent @event)
         {
-            if(_events.Any() && !_versionIncremented)
+            if(!_events.Any() && !_versionIncremented)
             {
                 Version++;
                 _versionIncremented = true;

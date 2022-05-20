@@ -1,5 +1,6 @@
 using ITPack.Application;
 using ITPack.Infrastructure.Queries;
+using ITPack.Shared;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace ITPack.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddShared();
             services.AddApplication();
             services.AddInfrastructure(Configuration);
             services.AddControllers();
@@ -48,6 +50,8 @@ namespace ITPack.Api
             }
 
             app.UseHttpsRedirection();
+
+            app.UseShared();
 
             app.UseRouting();
 

@@ -1,6 +1,8 @@
 ﻿using ITPack.Application.Services;
 using ITPack.Infrastructure.EF;
+using ITPack.Infrastructure.Logging;
 using ITPack.Infrastructure.Services;
+using ITPack.Shared.Abstractions.Commands;
 using ITPack.Shared.Queries;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +16,8 @@ namespace ITPack.Infrastructure.Queries
             services.AddSqlServer(configuration);
             services.AddQueries();
             services.AddSingleton<IWeatherService, DumbWeatherService>();
+
+            services.TryDecorate(typeof(ICommandHandler<>), typeof(LoggingCommandHandlerDecorator<>));
             return services;
         }
     }
